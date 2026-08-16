@@ -125,9 +125,7 @@ Core/
     ├── epaper.c            # driver SSD1680, hasil port ESP-IDF → STM32 HAL
     ├── epaper_gfx.c        # reuse langsung, tanpa perubahan
     └── sensor.c            # Modbus RTU (CRC16, request/response parsing)
-docs/
-├── PIN_MAPPING.md          # histori keputusan pin/clock/priority secara detail
-└── images/                 # screenshot CubeMX + foto hasil pengujian
+images/                 # screenshot CubeMX + foto hasil pengujian
 ```
 
 `Drivers/`, `Middlewares/Third_Party/FreeRTOS/`, `.ioc`, `.project`, `.cproject` adalah hasil generate STM32CubeIDE/CubeMX — tidak disertakan di sini, timpa/gabungkan `Core/` di atas ke project CubeMX kamu.
